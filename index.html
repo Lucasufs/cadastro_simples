@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="assets/template.css">
+</head>
+<body>
+    <div class="container_principal">
+        <h1>Cadastro social</h1>
+        <div class="div_1">
+            <h2>Preencha com suas informações pessoais</h2>
+        </div>
+        <form action="" method="post">
+            <div class="cadastro_todo">
+                    <div class="c1">
+                        Nome:
+                        <input type="text" name="nome" maxlength="20">
+                    </div>
+                    <div class="c2">
+                        <div class="cpf">
+                            CPF: <br>
+                            <input type="text">
+                        </div>
+                        <div class="nasc">
+                            Data de Nascimento: <br>
+                            <input type="date">
+                        </div>
+                        <div class="sexo">
+                            Sexo: <br>
+                            <label for="">Masculino</label>
+                            <input type="radio" value="masculino">
+                            <label for="">Feminino</label>
+                            <input type="radio" value="feminino">
+                        </div>
+                    </div>
+                    <div class="c3">
+                        <div class="civil">
+                            Estado Civil <br>
+                            <select name="estado_civil" id="teste">
+                                <option value=""></option>
+                                <option value="Solteiro">Solteiro</option>
+                                <option value="Casado">Casado</option>
+                                <option value="Separado">Separado</option>
+                            </select>
+                        </div>
+                        <div class="renda">
+                            Renda Mensal <br>
+                            <input type="number">
+                        </div>
+                    </div>
+                    <div class="endereco">
+                        <h4>Endereço</h4>
+                    </div>
+                    <div class="c4">
+                        <div class="logradouro">
+                            <label for="">Logradouro</label>
+                            <input type="text">
+                        </div>
+                        <div class="num">
+                            <label for="">Número</label>
+                            <input type="number">
+                        </div>
+                        <div class="complemento">
+                            <label for="">Complemento</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="c5">
+                        <div class="estado">
+                            <label for="">Estado</label>
+                            <select name="Estado" id="teste2">
+                                <option value=""></option>
+                                <option value="Alagoas">Alagoas</option>
+                                <option value="Bahia">Bahia</option>
+                                <option value="Sergipe">Sergipe</option>
+                            </select>
+                            
+                        </div>
+                        <div class="cidade">
+                            <label for="">Cidade</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="final">
+                        <form action="" method="post">
+                            <input type="submit" value="Cadastrar">
+                        </form>
+                    </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
